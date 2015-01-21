@@ -17,3 +17,18 @@ grocery_output
 puts $grocery_list.count 
 
 #4
+if $grocery_list.include?("banana")
+	puts "You need to pick up bananas"
+else
+	puts "You don't need to pick up bananas today"
+end
+
+#5
+puts $grocery_list[1]
+
+#6
+$grocery_list.delete("salmon") 
+grocery_output
+
+
+
