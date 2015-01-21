@@ -10,3 +10,8 @@ def cohort
 end
 
 cohort
+
+#2
+$students[:cohort4] = 43
+
+cohort 
