@@ -26,3 +26,7 @@ $students.each_value { | students| puts (students * 1.05).round  }
 
 #5 
 
+$students.delete(:cohort2)
+
+cohort
+
