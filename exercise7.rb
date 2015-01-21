@@ -15,3 +15,14 @@ cohort
 $students[:cohort4] = 43
 
 cohort 
+
+#3
+
+puts $students.keys
+
+#4 
+
+$students.each_value { | students| puts (students * 1.05).round  }
+
+#5 
+
