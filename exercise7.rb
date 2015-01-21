@@ -30,3 +30,12 @@ $students.delete(:cohort2)
 
 cohort
 
+#6 bonus
+total = 0
+$students.each{ |cohorts, students| total += students }
+puts total
+
+
+
+
+
